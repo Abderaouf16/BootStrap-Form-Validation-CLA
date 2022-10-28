@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ height: 100%;
+ background-color: rgb(108, 42, 165);
+ font-family:'Times New Roman', Times, serif;
+}
+.global-container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .card-login{
+    width: 380px;
+    height: 450px;
+    margin: 20px;
+    
+ }
+ .card-body{
+    border-radius: 10px;
+    background-color: rgba(206, 133, 15, 0.534);
+    box-shadow: 20px 20px  2000px black;
+ }
+.text-place {
+    border-radius: 8px;
+}
+.Submit-btn{
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.Submit-btn:hover{
+    transform: scale(1.1);
+}
+.input-control .error{
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    height: 13px;
+}
+.input-control.error input{
+    border-color: rgb(194, 13, 13);
+    border-width: 4px;
+}
+.input-control.success input{
+    border-color: green;
+    border-width: 4px;
+}
+.input-control input:focus{
+    outline: 0;
+}
+
+
