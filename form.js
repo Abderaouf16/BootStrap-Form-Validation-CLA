@@ -96,7 +96,7 @@ const validateInputs = () => {
         if(  allowedExtensions.exec(filePath)){
             
         }else {
-            alert('You should upload your resume with pdf');
+            alert('You should upload your resume In pdf Format');
             
         }
        
