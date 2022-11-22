@@ -8,12 +8,6 @@ body{
  background-color: rgb(108, 42, 165);
  font-family:'Times New Roman', Times, serif;
 }
-.global-container{
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    
-}
  .card-login{
     width: 380px;
     height: 450px;

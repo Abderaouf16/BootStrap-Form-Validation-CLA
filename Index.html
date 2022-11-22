@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="global-container d-flex">
+    <div class="global-container d-flex justify-content-center align-items-center w-100">
         <div class="card-login ">
             <div class="card-body ">
                 <h1 class="card-title text-center"> Form</h1>
@@ -19,20 +19,20 @@
                                 <!-- Full Name-->
                                 <div class="input-control">
                                     <label for="name-text">Full Name:</label>
-                                    <input type="text" name="" id="name-text" class=" text-place form-control form-control-sm my-2" placeholder="Ex: KHAMOUM Abderaouf"  >
+                                    <input type="text" name="" id="name-text" class=" text-place form-control form-control-sm my-2" placeholder="Ex: KHAMOUM Abderaouf"  required>
                                     <div class="error"></div>
                                     </div>
                                
                                  <!--email-->
                                  <div class="input-control">
                                  <label for="Email-text">Email address:</label>
-                                 <input type="Email" name="" id="Email-text" class=" text-place form-control form-control-sm my-2" placeholder="Email@gmail.com" >
+                                 <input type="Email" name="" id="Email-text" class=" text-place form-control form-control-sm my-2" placeholder="Email@gmail.com" required>
                                  <div class="error"></div>
                                  </div>
                                 <!--UserName-->
                                 <div class="input-control">
                                 <label for="UserName-text" >UserName:</label>
-                                <input type="text" name="" id="UserName-text" class=" text-place form-control form-control-sm my-2" placeholder="Ex: Raouf16"  >
+                                <input type="text" name="" id="UserName-text" class=" text-place form-control form-control-sm my-2" placeholder="Ex: Raouf16" required >
                                 <div class="error"></div>
                                 <div class="invalid-tooltip">
                                     Please choose a unique and valid username.
@@ -45,12 +45,12 @@
                                 <div class=" specify-gender my-3 d-flex justify-content-center">
                                     <div class="male px-3">
                                     <label for="" class="form-check-label ">Male</label>
-                                    <input type="radio" name="gender" id="gender-text-male" class="form-check-input"> 
+                                    <input type="radio" name="gender" id="gender-text-male" class="form-check-input" required> 
                                     </div>
                                     <div class="error"></div>
                                     <div class="female px-3">
                                       <label for="" class="form-check-label ">Female</label>
-                                      <input type="radio" name="gender" id="gender-text-female" class="form-check-input " >
+                                      <input type="radio" name="gender" id="gender-text-female" class="form-check-input " required >
                                     </div>
                                     <div class="error"></div>
                                     </div>
@@ -64,14 +64,14 @@
                                 <label for="radio-btn" class=" form-check-label "> Available for work:</label>
                                 </div>
                                 <div class="form-check form-switch mx-3">
-                                    <input class="form-check-input " type="checkbox" id="myswitch">
+                                    <input class="form-check-input " type="checkbox" id="myswitch" required>
                                   </div>
                                 </div>
                                 
                                     <!-- file input-->
                                     <div class="resume my-3">
                                 <label for="file" class="form-label"> Upload Your Resume:</label>
-                                <input type="file" name="" id="file" class="form-control my-2" >
+                                <input type="file" name="" id="file" class="form-control my-2" required >
                                 </div> 
                                
                                 <!-- submit btn-->
